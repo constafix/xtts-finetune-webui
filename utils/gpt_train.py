@@ -154,7 +154,7 @@ def train_gpt(custom_model,version, language, num_epochs, batch_size, grad_acumm
         print_step=50,
         plot_step=100,
         log_model_step=100,
-        save_step=0,
+        save_step=100000000000000000,
         save_n_checkpoints=1,
         save_checkpoints=False,
         save_all_best=False,
